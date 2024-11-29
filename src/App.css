@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0d4ac3;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card {
+  overflow: hidden;
+  text-align: center;
+}
+
+.card .rating-bar {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #144ca0; /* Delikatny pastelowy niebieski */
+  color: #333; /* Przyjemny kontrast dla tekstu */
+  font-family: Arial, sans-serif;
 }
