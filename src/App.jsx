@@ -16,6 +16,7 @@ const menuItems = [
   { id: 4, label: "Lab3", url: "/lab3", urlPattern: "/lab3", element: <Lab3Page /> },
   { id: 5, label: "NotFound", url: "*", urlPattern: "*", element: <NotFound /> },
   { id: 6, label: "Lab4", url: "/lab4", urlPattern: "/lab4", element: <Lab4Page /> },
+  
 ];
 
 
